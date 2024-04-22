@@ -8823,6 +8823,15 @@ h1, h2, h3, h4, h5,
   -webkit-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
   -moz-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
   box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17); }
+  .services-1 .icon .hover{
+    display: none;
+  }
+  .services-1:hover .icon .hover{
+    display: inline-block;
+  }
+  .services-1:hover .icon .w-hover{
+    display: none;
+  }
   .services-1 .icon {
     display: block;
     margin-bottom: 30px; }
